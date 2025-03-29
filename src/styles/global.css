@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Pattaya-Regular';
+    src: url('../fonts/Pattaya-Regular.ttf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  body {
+    font-family: 'Montserrat-Regular', sans-serif;
+    background-color: #F5EEFF;
+  }
+
+  /* main {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  } */

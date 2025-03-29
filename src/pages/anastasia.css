@@ -1,0 +1,56 @@
+.ANTheader {
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.ANTheader h1 {
+    font-family: 'Pattaya-Regular';
+    font-size: 3rem;
+    color: #2D094F
+}
+
+.ANTheader h2 {
+    margin-bottom: 20px;
+    margin-top: 20px !important;
+}
+.ANTheader h2, 
+.ANTheader h3,
+.ANTheader h4,
+.ANTheader p {
+    width: 80%; /* Set width to 80% */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center; /* Ensure text is centered inside */
+    color: #2D094F;
+}
+
+.button {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px, 20px;
+  }
+
+  .button-details {
+    background-color: #2D094F;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    width: 80%;
+  }

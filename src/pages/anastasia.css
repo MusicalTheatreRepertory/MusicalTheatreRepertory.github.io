@@ -11,14 +11,33 @@
 }
 
 .ANTheader h1 {
-    font-family: 'Pattaya-Regular';
     font-size: 3rem;
-    color: #2D094F
+    color: #2D094F;
+    font-family: 'Pattaya-Regular';
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.landing-container {
+    position: relative;
+    width: auto;
+    overflow: hidden;
+}
+
+.landing-container img {
+    max-width: 100%;
+    height: auto;
 }
 
 .ANTheader h2 {
     margin-bottom: 20px;
     margin-top: 20px !important;
+    font-size: 1rem;
+}
+
+.ANTheader h3 {
+    font-size: 1.1rem;
 }
 .ANTheader h2, 
 .ANTheader h3,
@@ -53,4 +72,9 @@
     text-decoration: none;
     text-align: center;
     width: 80%;
+  }
+
+  body {
+    font-family: 'Montserrat-Regular', sans-serif;
+    background-color: #F5EEFF;
   }

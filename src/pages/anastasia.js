@@ -2,13 +2,19 @@ import React, { useEffect, useRef } from 'react';
 import { Link } from 'gatsby';
 import './anastasia.css';
 import '../styles/global.css'
+import programcover from '../images/programcover.png';
 
 const Anastasia = () => {
     return (
         <main>
         <section className="ANTheader">
             <div>
-                <h1>Anastasia Program</h1>
+                <div className="landing-container">
+                    <img
+                        src= { programcover }
+                        alt="Anastasia Program"
+                    />
+                </div>
                 <h3>
                     Anastasia: The Musical
                 </h3>
@@ -24,7 +30,16 @@ const Anastasia = () => {
                 <h2>All video and/or audio recording of this production is strictly prohibited.</h2>
                 <div className="button">
                 <Link 
-                    to="/index"
+                    to="/AnastasiaProgram/landack"
+                    className="button-details"
+                >
+                Land Acknowledgement
+                </Link>
+                </div>
+                
+                <div className="button">
+                <Link 
+                    to="/AnastasiaProgram/director"
                     className="button-details"
                 >
                 A Note From Our Director
@@ -45,7 +60,7 @@ const Anastasia = () => {
             <h1>The Team</h1>
             <div className="button">
                 <Link 
-                    to="/ANTpages/cast"
+                    to="/AnastasiaProgram/cast"
                     className="button-details"
                 >
                 Cast
@@ -54,7 +69,7 @@ const Anastasia = () => {
 
             <div className="button">
                 <Link 
-                    to="/index"
+                    to="/AnastasiaProgram/creative"
                     className="button-details"
                 >
                 Creative Team
@@ -63,7 +78,7 @@ const Anastasia = () => {
 
             <div className="button">
                 <Link 
-                    to="/index"
+                    to="/AnastasiaProgram/design"
                     className="button-details"
                 >
                 Design Team
@@ -73,7 +88,7 @@ const Anastasia = () => {
 
             <div className="button">
                 <Link 
-                    to="/index"
+                    to="/AnastasiaProgram/pit"
                     className="button-details"
                 >
                 Band
@@ -91,14 +106,14 @@ const Anastasia = () => {
 
             <div className="button">
                 <Link 
-                    to="/index"
+                    to="/AnastasiaProgram/board"
                     className="button-details"
                 >
                 MTR Board
                 </Link>
             </div>
             <h1>Special Thanks</h1>
-            <p>really cool people here</p>
+            <p>We want to give special thanks for helping us make this project a reality to SDA, Ed ___, Sophia Pollacchi, Melina Limantzakis, MaryAnn Hu, Trojan Stunt Group, the Scene Dock,</p>
             <h1>Donations</h1>
             <div className="button">
                 <Link 

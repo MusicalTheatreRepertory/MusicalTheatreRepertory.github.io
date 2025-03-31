@@ -6,6 +6,7 @@
     align-items: center !important;
     text-align: center !important;
     padding: 0;
+    background-color: #F5EEFF !important;
 
 }
 
@@ -77,6 +78,9 @@
 
   body {
     font-family: 'Montserrat-Regular', sans-serif;
-    background-color: #F5EEFF;
     margin: 0px;
   }
+
+  :root {
+    --primary-bg-color: #F5EEFF;
+}

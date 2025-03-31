@@ -12,10 +12,6 @@
     font-style: normal;
   }
 
-body { 
-  background-color: #197766;
-
-}
 
 .landing {
   display: flex;
@@ -23,6 +19,10 @@ body {
   align-items: center; /* Centers items */
   text-align: center; /* Ensures text is centered */
   width: 100%;
+}
+
+body {
+  background-color: var(--primary-bg-color) !important;
 }
 
 

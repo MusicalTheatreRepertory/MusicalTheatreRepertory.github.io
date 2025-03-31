@@ -1,5 +1,6 @@
 import React from "react"
 import '../styles/global.css'
+import '../styles/main.css'
 import { Link } from "gatsby"
 import { Header } from "../components/Header";
 import mtrCrest from "../images/mtr-crest-white.png";

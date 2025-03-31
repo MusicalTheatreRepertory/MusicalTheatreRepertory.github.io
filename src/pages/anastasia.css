@@ -5,7 +5,6 @@
     justify-content: center !important;
     align-items: center !important;
     text-align: center !important;
-    margin: 0 auto;
     padding: 0;
 
 }
@@ -44,6 +43,7 @@
 .ANTheader h4,
 .ANTheader p {
     width: 80%; /* Set width to 80% */
+    max-width: 300px;
     margin: 0 auto; /* Center horizontally */
     text-align: center; /* Ensure text is centered inside */
     color: #2D094F;
@@ -72,9 +72,11 @@
     text-decoration: none;
     text-align: center;
     width: 80%;
+    max-width: 300px;
   }
 
   body {
     font-family: 'Montserrat-Regular', sans-serif;
     background-color: #F5EEFF;
+    margin: 0px;
   }

@@ -15,6 +15,7 @@ const Anastasia = () => {
                         alt="Anastasia Program"
                     />
                 </div>
+                <br />
                 <h3>
                     Anastasia: The Musical
                 </h3>
@@ -57,6 +58,7 @@ const Anastasia = () => {
 
             <h1>Trigger Warnings</h1>
             <p>Please be advised: This production contains usage of prop guns, flashing lights, loud sounds, violence, and talk and visuals of death (including death of minors). </p>
+            <br />
             <h1>The Team</h1>
             <div className="button">
                 <Link 
@@ -113,7 +115,8 @@ const Anastasia = () => {
                 </Link>
             </div>
             <h1>Special Thanks</h1>
-            <p>We want to give special thanks for helping us make this project a reality to SDA, Ed ___, Sophia Pollacchi, Melina Limantzakis, MaryAnn Hu, Trojan Stunt Group, the Scene Dock,</p>
+            <p>We want to give special thanks for helping us make this project a reality to SDA, Edgard De Dios, Sophia Pollacchi, Grace Sutherland, Melina Limantzakis, MaryAnn Hu, Trojan Stunt Group, and the Scene Dock Theatre. </p>
+            <br />
             <h1>Donations</h1>
             <div className="button">
                 <Link 
@@ -151,6 +154,7 @@ const Anastasia = () => {
                 MTR's Instagram
                 </Link>
             </div>
+            <br />
 
             <h3>"Anastasia" is presented through special arrangement with Concord Theatricals.
                 All authorized materials are also supplied by Concord Theatricals.

@@ -159,7 +159,7 @@ const Anastasia = () => {
             <h3>"Anastasia" is presented through special arrangement with Concord Theatricals.
                 All authorized materials are also supplied by Concord Theatricals.
             </h3>
-            <h3 style ={{fontSize: "0.7rem"}}>
+            <h3 style ={{fontSize: "0.7rem", paddingBottom: "20px"}}>
                 https://www.concordtheatricals.com
             </h3>
             </div>

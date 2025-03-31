@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `MTRWebsite`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://musicaltheatrerepertory.github.io`,
   },
   plugins: [],
 }

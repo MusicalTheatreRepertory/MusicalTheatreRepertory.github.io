@@ -83,7 +83,7 @@
     margin-top: 0px;
     color: #4a4a4a;
     line-height: 1;
-    font-size: 1rem !important;  /* Make description smaller */
+    font-size: 0.6rem !important;  /* Make description smaller */
   }
 
   .project-content {

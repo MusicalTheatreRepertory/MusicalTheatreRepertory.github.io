@@ -29,7 +29,7 @@ export const Header = () => {
           <ul
             className="nav-container"
           >
-            {["home", "past shows", "board", "join"].map((item, index) => (
+            {["home", "our shows", "meet the board", "join"].map((item, index) => (
               <li key={index}>
                 <Link
                   to={`/${item.toLowerCase().replace(" ", "-")}`}

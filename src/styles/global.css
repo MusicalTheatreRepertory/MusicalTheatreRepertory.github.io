@@ -13,16 +13,3 @@
   }
 
 
-.landing {
-  display: flex;
-  flex-direction: column; /* Stacks image on top, text below */
-  align-items: center; /* Centers items */
-  text-align: center; /* Ensures text is centered */
-  width: 100%;
-}
-
-body {
-  background-color: var(--primary-bg-color) !important;
-}
-
-

@@ -1,3 +1,120 @@
-:root {
-    --primary-bg-color: #197766;
+.landing-section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #197766 !important;
+    text-align: center;
+}
+.landing {
+    display: flex;
+    flex-direction: column; /* Stacks image on top, text below */
+    align-items: center; /* Centers items */
+    text-align: center; /* Ensures text is centered */
+    width: 100%;
+  }
+
+.landing h1 {
+    text-align: center;
+    font-size: 5rem; 
+    margin-top: 10vh;
+    padding-bottom: 100px;
+    color: #FFFFFF;
+    font-weight: heavy;
+    margin-top: 600px;
+}
+
+
+
+.slogan-container {
+    position: relative;
+    width: auto;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.slogan-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.who-we-are-header {
+    padding: 0px 80px;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .who-we-are-header h2 {
+    font-size:3rem; 
+    color: #0e493e;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 1100px) {
+    .who-we-are-header {
+      padding: 0px 20px; /* Adjust padding for smaller screens */
+    }
+
+  }
+
+  @media (max-width: 768px) {
+    .who-we-are-header h2 {
+      font-size: 2.2rem; /* Adjust font size for phone-sized screens */
+    }
+  }
+
+  .who-we-are-text {
+    padding: 0px 0px;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .who-we-are-text p {
+    font-size: 1.2rem !important;
+    line-height: 1.8;
+    color: #333;
+  }
+
+  /* Text container */
+.who-we-are-text > div:first-child {
+  flex: 1;
+  padding-right: 0px;
+  margin-left: 80px;
+  padding-left: 20px;
+  border-left: 3px solid #0e493e;
+}
+/* Image container */
+.who-we-are-text > div:last-child {
+  flex: 1;
+  padding-top: 20px;
+  padding-right: 40px;
+  align-items: flex-start;
+}
+
+/* Responsive styling for mobile */
+@media (max-width: 1100px) {
+  .who-we-are-text {
+    flex-direction: column; /* Stack items vertically */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .who-we-are-text p {
+    line-height: 1.4;
+    font-size: 1rem !important;
+  }
+
+  .who-we-are-text > div:first-child {
+    padding-left: 20px; /* Reduce padding for smaller screens */
+    margin-left: 20px;
+    padding-right: 20px; /* Add some padding on the right for symmetry */
+  }
+
+  .who-we-are-text > div:last-child {
+    padding-top: 20px;
+    padding-right: 0px; /* Remove right padding to align with text */
+    align-self: center; /* Center the carousel for a cleaner look */
+  }
 }

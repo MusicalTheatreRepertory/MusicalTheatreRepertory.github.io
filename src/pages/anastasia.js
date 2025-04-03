@@ -48,7 +48,7 @@ const Anastasia = () => {
                 </div>
                 <div className="button">
                 <Link 
-                    to="/index"
+                    to="/AnastasiaProgram/president"
                     className="button-details"
                 >
                 A Note From The MTR President
@@ -99,7 +99,7 @@ const Anastasia = () => {
 
             <div className="button">
                 <Link 
-                    to="/index"
+                    to="/AnastasiaProgram/crew"
                     className="button-details"
                 >
                 Crew
@@ -115,7 +115,7 @@ const Anastasia = () => {
                 </Link>
             </div>
             <h1>Special Thanks</h1>
-            <p>We want to give special thanks for helping us make this project a reality to SDA, Edgard De Dios, Sophia Pollacchi, Grace Sutherland, Melina Limantzakis, MaryAnn Hu, Trojan Stunt Group, and the Scene Dock Theatre. </p>
+            <p>We want to give special thanks for helping us make this project a reality to SDA, Edgard De Dios, Sophia Pollacchi, Grace Sutherland, Melina Limantzakis, MaryAnn Hu, Jenni Barber, Trojan Stunt Group, and the Scene Dock Theatre. </p>
             <br />
             <h1>Donations</h1>
             <div className="button">

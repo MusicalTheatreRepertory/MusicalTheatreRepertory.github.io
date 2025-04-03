@@ -1,3 +1,7 @@
+body {
+    background-color: #F5EEFF !important;
+}
+
 .ANTheader {
     display: flex !important;
     flex-direction: column;

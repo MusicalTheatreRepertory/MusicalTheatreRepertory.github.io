@@ -1,0 +1,139 @@
+/* General Page Styles */
+.projects-container {
+  margin: 0 auto;
+  padding: 40px;
+  max-width: 1100px;
+  /* background-color: #ffffff; /* Clean white background */
+}
+
+.pastshows-title {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #fff;
+  font-family: 'Outfit' !important;
+}
+
+/* Project Section Styling */
+.project-section {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.project-content {
+  display: flex; /* Ensure elements are laid out in a row */
+  align-items: flex-start; /* Align items vertically */
+  justify-content: space-between; /* Space out text and image */
+  width: 100%; /* Ensure it takes full width */
+}
+
+.project-section.left .project-content {
+  flex-direction: row;
+}
+
+.project-section.right .project-content {
+  flex-direction: row-reverse;
+}
+
+/* Image Styling */
+
+.show-image {
+  display: flex;
+  align-items: flex-start;
+  width: 40%;
+}
+.show-image img {
+  width: 90%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.show-image > div:first-child {
+  flex: 2;
+  padding-right: 0px;
+}
+
+.show-image > div:last-child {
+  flex: 3;
+  padding-left: 0px;
+}
+
+/* Text Styling */
+.project-text {
+  flex: 1;
+}
+
+.show-title {
+  font-size: 2.5rem;
+  margin: 0;
+  color: #fff;
+  letter-spacing: 1px;
+  font-family: 'Outfit' !important;
+}
+
+.show-director {
+  font-size: 1.6rem;
+  color: #fff;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Outfit' !important;
+}
+
+.show-season {
+  font-size: 1.9rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #fff;
+  font-family: 'Outfit' !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .project-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .project-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .project-image img {
+    width: 100%;
+    max-width: 600px;
+  }
+
+  .project-text {
+    margin-top: 15px;
+  }
+}
+
+.showcase-recording-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px, 20px;
+  flex: 1;
+}
+
+.showcase-button-details {
+  background-color: #622830;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 1.2rem;
+  font-weight: normal;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}

@@ -1,0 +1,104 @@
+.lsh-background {
+  background-color: #f8cbd0 !important;
+}
+
+body {
+  background-color: var(--page-bg);
+}
+
+.LSOHheader {
+  display: flex !important;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  padding: 0;
+}
+
+.LSOHheader h1 {
+  font-size: 3rem;
+  color: #245b10;
+  font-family: 'Double-Feature';
+  letter-spacing: 5px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.landing-container {
+  position: relative;
+  width: auto;
+  overflow: hidden;
+}
+
+.landing-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.LSOHheader h2 {
+  margin-bottom: 20px;
+  margin-top: 20px !important;
+  font-size: 1rem;
+}
+
+.LSOHheader h3 {
+  font-size: 1.1rem;
+}
+.LSOHheader h2,
+.LSOHheader h3,
+.LSOHheader h4,
+.LSOHheader p {
+  width: 80%; /* Set width to 80% */
+  max-width: 300px;
+  margin: 0 auto; /* Center horizontally */
+  margin-top: 10px;
+  text-align: center; /* Ensure text is centered inside */
+  color: #245b10;
+  font-family: 'Outfit', sans-serif;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px, 20px;
+}
+
+.LSOH-button-details {
+  background-color: #9a3045;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Butterfly-Kids';
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  width: 80%;
+  max-width: 300px;
+}
+
+body {
+  margin: 0px;
+}
+
+@font-face {
+  font-family: 'Double-Feature';
+  src: url('../../../fonts/DoubleFeature30.ttf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Butterfly-Kids';
+  src: url('../../../fonts/ButterflyKids-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}

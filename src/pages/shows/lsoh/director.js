@@ -1,0 +1,50 @@
+import React, { useEffect, useRef } from 'react'
+import { Link } from 'gatsby'
+import './lsoh.css'
+import '../../../styles/fonts.css'
+import LSOHLayout from '../../../layouts/LSOHLayout.js'
+
+const Director = () => {
+  return (
+    <LSOHLayout>
+      <main>
+        <section className="LSOHheader">
+          <div>
+            <h1 style={{ fontSize: '2rem', marginTop: '20px' }}>
+              Director's Statement
+            </h1>
+            <p style={{ textAlign: 'left', padding: '10px 0px' }}>
+              Little Shop of Horrors has been a favorite of mine for several
+              years now, and I’m incredibly excited to present my vision of the
+              story to you all. First opened in 1982, the show and it’s messages
+              around the price of success and the danger of insecurity are still
+              relevant today. The production team and I did our best to
+              represent those messages in a fresh, exciting way and to highlight
+              the marginalized experiences that give the story its heart. I want
+              to give a special thanks to my assistant director, Luke, and all
+              he contributed to the rehearsal process. His ideas and his
+              positive attitude really made the rehearsal space a place of
+              enthusiastic collaboration, and helped build a family among the
+              ensemble. I also want to give a special thanks to Paige, Brooke
+              and Samantha, the stage management team, who facilitated the
+              production process incredibly smoothly, and made the rehearsal
+              space a safe and professional place for everyone involved. I’m
+              grateful to be putting on a production with such a lovely and
+              hardworking group of people, and I was so inspired working with
+              this diverse cohort of voices. This story is the perfect show to
+              highlight these unique perspectives, and I hope that the audience
+              walks away from the performances loving Little Shop as much as we
+              do or feeling that that the show they love was handled with care.
+              Thank you, and I hope you enjoy the show!
+            </p>
+            <p style={{ textAlign: 'left', padding: '10px 0px' }}>
+              - Zora Payne
+            </p>
+          </div>
+        </section>
+      </main>
+    </LSOHLayout>
+  )
+}
+
+export default Director

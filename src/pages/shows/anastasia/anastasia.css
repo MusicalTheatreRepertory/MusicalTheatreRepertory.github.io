@@ -1,0 +1,88 @@
+body {
+  background-color: var(--page-bg);
+}
+
+.ANTheader {
+  display: flex !important;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  padding: 0;
+  background-color: #f5eeff !important;
+}
+
+.ANTheader h1 {
+  font-size: 3rem;
+  color: #2d094f;
+  font-family: 'Pattaya-Regular';
+  width: 100%;
+  margin: 0 auto;
+}
+
+.landing-container {
+  position: relative;
+  width: auto;
+  overflow: hidden;
+}
+
+.landing-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ANTheader h2 {
+  margin-bottom: 20px;
+  margin-top: 20px !important;
+  font-size: 1rem;
+}
+
+.ANTheader h3 {
+  font-size: 1.1rem;
+}
+.ANTheader h2,
+.ANTheader h3,
+.ANTheader h4,
+.ANTheader p {
+  width: 80%; /* Set width to 80% */
+  max-width: 300px;
+  margin: 0 auto; /* Center horizontally */
+  text-align: center; /* Ensure text is centered inside */
+  color: #2d094f;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px, 20px;
+}
+
+.ANT-button-details {
+  background-color: #2d094f;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  width: 80%;
+  max-width: 300px;
+}
+
+body {
+  font-family: 'Montserrat-Regular', sans-serif;
+  margin: 0px;
+}
+
+:root {
+  --primary-bg-color: #f5eeff;
+}

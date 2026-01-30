@@ -1,0 +1,113 @@
+.teams-container {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 5px;
+  background-color: #f8cbd0 !important;
+}
+
+.LSOH-page-title {
+  font-size: 4rem;
+  font-family: 'Double-Feature';
+  margin-bottom: 5px;
+  color: #245b10;
+  text-align: center;
+  margin-top: 10px !important;
+}
+
+body {
+  background-color: var(--page-bg);
+}
+
+.LSOH-page-subtitle {
+  font-size: 1.5rem;
+
+  margin-bottom: 10px;
+  color: #9a3045;
+}
+
+/* Project Section Styling */
+.LSOH-project-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+/* Image Styling */
+
+.LSOH-project-image {
+  display: flex;
+  align-items: flex-start;
+  width: 30%;
+}
+.LSOH-project-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.LSOH-project-image > div:first-child {
+  flex: 2;
+  padding-right: 0px;
+}
+
+.LSOH-project-image > div:last-child {
+  flex: 3;
+  padding-left: 0px;
+}
+
+/* Text Styling */
+.LSOH-project-text {
+  flex: 1;
+  margin-top: 0px !important;
+  padding: 0 5px;
+  font-size: 0.6rem; /* Make text smaller */
+  line-height: 1.3; /* Reduce spacing between lines */
+}
+
+.LSOH-project-title {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #9a3045;
+  font-family: 'Outfit';
+}
+
+.LSOH-project-subtitle {
+  font-size: 1rem;
+  margin: 0px 0;
+  color: #9a3045;
+  font-family: 'Outfit';
+  font-weight: normal;
+}
+
+.LSOH-project-description {
+  margin-top: 0px;
+  color: #4a4a4a;
+  line-height: 1;
+  font-family: 'Outfit';
+  font-size: 0.6rem !important;
+}
+
+.LSOH-project-content {
+  display: flex; /* Ensure elements are laid out in a row */
+  align-items: flex-start; /* Align items vertically */
+  justify-content: space-between; /* Space out text and image */
+  width: 100%; /* Ensure it takes full width */
+}
+
+.LSOH-project-section.left .LSOH-project-content {
+  flex-direction: row;
+}
+
+.LSOH-project-section.right .LSOH-project-content {
+  flex-direction: row-reverse;
+}
+
+.LSOH-project-text.align-left {
+  text-align: left;
+}
+
+.LSOH-project-text.align-right {
+  text-align: right;
+}

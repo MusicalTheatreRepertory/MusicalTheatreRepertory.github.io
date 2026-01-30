@@ -1,0 +1,99 @@
+.ANT-teams-container {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 5px;
+  background-color: #f5eeff !important;
+}
+
+.ANT-page-title {
+  font-size: 4rem;
+  font-family: 'Pattaya-Regular';
+  margin-bottom: 5px;
+  color: #2d094f;
+  text-align: center;
+  margin-top: 10px !important;
+}
+
+.ANT-page-subtitle {
+  font-size: 1.5rem;
+
+  margin-bottom: 10px;
+  color: #2d094f;
+}
+
+/* Project Section Styling */
+.ANT-project-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+/* Image Styling */
+
+.ANT-project-image {
+  display: flex;
+  align-items: flex-start;
+  width: 30%;
+}
+.ANT-project-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ANT-project-image > div:first-child {
+  flex: 2;
+  padding-right: 0px;
+}
+
+.ANT-project-image > div:last-child {
+  flex: 3;
+  padding-left: 0px;
+}
+
+/* Text Styling */
+.ANT-project-text {
+  flex: 1;
+  padding: 0 5px;
+  font-size: 0.6rem; /* Make text smaller */
+  line-height: 1.3; /* Reduce spacing between lines */
+}
+
+.ANT-project-title {
+  font-size: 1rem;
+  margin: 0;
+  color: #2d094f;
+  font-family: 'Pattaya-Regular';
+}
+
+.ANT-project-subtitle {
+  font-size: 1rem;
+  margin: 0px 0;
+  color: #2d094f;
+  font-family: 'Pattaya-Regular';
+  font-weight: normal;
+}
+
+.ANT-project-description {
+  margin-top: 0px;
+  color: #4a4a4a;
+  line-height: 1;
+  font-size: 0.6rem !important; /* Make description smaller */
+}
+
+.ANT-project-content {
+  display: flex; /* Ensure elements are laid out in a row */
+  align-items: flex-start; /* Align items vertically */
+  justify-content: space-between; /* Space out text and image */
+  width: 100%; /* Ensure it takes full width */
+}
+
+.ANT-project-section.left .ANT-project-content {
+  flex-direction: row;
+}
+
+.ANT-project-section.right .ANT-project-content {
+  flex-direction: row-reverse;
+}

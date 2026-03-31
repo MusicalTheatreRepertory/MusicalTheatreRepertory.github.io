@@ -1,0 +1,115 @@
+.adm-teams-container {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 5px;
+  background-color: #d9f1ea !important;
+}
+
+.ADM-page-title {
+  font-size: 4rem;
+  font-family: 'Seven-Segment';
+  margin-bottom: 5px;
+  color: #1f5746;
+  text-align: center;
+  margin-top: 10px !important;
+}
+
+body {
+  background-color: var(--page-bg);
+}
+
+.ADM-page-subtitle {
+  font-size: 1.5rem;
+
+  margin-bottom: 10px;
+  color: #2d7b63;
+}
+
+/* Project Section Styling */
+.ADM-project-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+/* Image Styling */
+
+.ADM-project-image {
+  display: flex;
+  align-items: flex-start;
+  width: 30%;
+  aspect-ratio: 0.8;
+}
+.ADM-project-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  aspect-ratio: 0.8;
+}
+
+.ADM-project-image > div:first-child {
+  flex: 2;
+  padding-right: 0px;
+}
+
+.ADM-project-image > div:last-child {
+  flex: 3;
+  padding-left: 0px;
+}
+
+/* Text Styling */
+.ADM-project-text {
+  flex: 1;
+  margin-top: 0px !important;
+  padding: 0 5px;
+  font-size: 0.6rem; /* Make text smaller */
+  line-height: 1.3; /* Reduce spacing between lines */
+}
+
+.ADM-project-title {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #2d7b63;
+  font-family: 'Outfit';
+}
+
+.ADM-project-subtitle {
+  font-size: 1rem;
+  margin: 0px 0;
+  color: #2d7b63;
+  font-family: 'Outfit';
+  font-weight: normal;
+}
+
+.ADM-project-description {
+  margin-top: 0px;
+  color: #4a4a4a;
+  line-height: 1;
+  font-family: 'Outfit';
+  font-size: 0.6rem !important;
+}
+
+.ADM-project-content {
+  display: flex; /* Ensure elements are laid out in a row */
+  align-items: flex-start; /* Align items vertically */
+  justify-content: space-between; /* Space out text and image */
+  width: 100%; /* Ensure it takes full width */
+}
+
+.ADM-project-section.left .ADM-project-content {
+  flex-direction: row;
+}
+
+.ADM-project-section.right .ADM-project-content {
+  flex-direction: row-reverse;
+}
+
+.ADM-project-text.align-left {
+  text-align: left;
+}
+
+.ADM-project-text.align-right {
+  text-align: right;
+}

@@ -148,12 +148,6 @@ const boardMembers = [
     page: '/board/alexandra-somodi',
   },
   {
-    name: 'Allison Stowe',
-    title: 'Member at Large',
-    photo: allison,
-    page: '/board/allison-stowe',
-  },
-  {
     name: 'Ben Williams',
     title: 'Member at Large',
     photo: ben,
@@ -168,6 +162,12 @@ const boardMembers = [
 ]
 
 const boardAlum = [
+  {
+    name: 'Allison Stowe',
+    title: 'Member at Large',
+    photo: allison,
+    page: '/board/allison-stowe',
+  }, 
   {
     name: 'Gray Abdalla',
     title: 'Secretary',

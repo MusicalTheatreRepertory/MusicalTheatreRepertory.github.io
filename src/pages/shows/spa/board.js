@@ -43,6 +43,10 @@ const Board = () => {
             <h3>Member At Large</h3>
             <br />
 
+            <h3>Abigail Bushman</h3>
+            <h3>Member At Large</h3>
+            <br />
+
             <h3>Courtney Chu</h3>
             <h3>Member At Large</h3>
             <br />

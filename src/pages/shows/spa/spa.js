@@ -43,7 +43,7 @@ const SpringAwakening = () => {
 
               <h1>Trigger Warnings</h1>
               <p>
-                Please note that this show addresses themes, and contains depictions of racism, xenophobia, bigotry, antisemitism, misogyny, death, violence, self harm and incarceration. The production may also include flashing lights and loud sounds.
+                Please be advised: This production contains the utilization of a non-firing prop firearm, mature and potentially triggering themes, mental health & suicide, sexual content, abuse and violence, substance abuse, and contains loud noises. If you know anyone who is struggling or in a crisis, confidential, free help is available by calling 988 or by visiting <a href="https://988lifeline.org" target="_blank" rel="noopener noreferrer" >988lifeline.org</a>.
               </p>
               <br />
               <h1>The Team</h1>
@@ -92,14 +92,14 @@ const SpringAwakening = () => {
                 </Link>
               </div>
 
-              <div className="button">
+              {/* <div className="button">
                 <Link
                   to="http://fightongiveback.usc.edu/p/musical-theatre-repertory-25"
                   className="SPA-button-details"
                 >
                   IgniteSC
                 </Link>
-              </div>
+              </div> */}
 
               <h1>Social Links</h1>
               <div className="button">

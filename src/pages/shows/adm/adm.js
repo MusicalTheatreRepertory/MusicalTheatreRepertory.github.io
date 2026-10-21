@@ -85,7 +85,7 @@ const AddingMachine = () => {
               <h1>Special Thanks</h1>
               <p>
                 We want to give special thanks for helping us make this project
-                a reality to SDA, USG, TSA, Scott Faris, Hattie Ugoretz, Lola Mak, and the Scene Dock Theatre.{' '}
+                a reality to SDA, USG, TSA, Scott Faris, Jacob Hollens, Paige Speaker, Courtney Chu, Allie Stowe, Alexander Aseme, Valencia, Hattie Ugoretz, Lola Mak, Ben DeJong, and the Scene Dock Theatre.{' '}
               </p>
               <br />
               <h1>Donations</h1>
@@ -130,7 +130,7 @@ const AddingMachine = () => {
               <h3>
                 ADDING MACHINE: A MUSICAL is presented through
                 special arrangement with Concord Theatricals. All
-                authorized performance materials are also supplied by Concord.
+                authorized performance materials are also supplied by Concord Theatricals.
               </h3>
               <h3 style={{ fontSize: '0.7rem', paddingBottom: '20px' }}>
                 https://www.concordtheatricals.com

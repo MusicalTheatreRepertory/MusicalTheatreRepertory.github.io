@@ -19,6 +19,9 @@ import namratha from "../images/shows/adm/namratha.png";
 import serena from "../images/shows/adm/serena.jpg";
 import sara from "../images/shows/adm/sara.jpg";
 import alexandra from "../images/shows/adm/alexandra.png";
+import pragya from "../images/shows/adm/pragya.jpg";
+import bella from "../images/shows/adm/bella.jpg";
+import megan from "../images/shows/adm/megan.jpg";
 
 import maia from "../images/shows/adm/maia.jpg";
 import lola from "../images/shows/adm/lola.jpg";
@@ -54,7 +57,7 @@ const cast = [
   {
     role: 'Shrdlu',
     name: 'Niko Gephart',
-    bio: "Niko is a freshmen musical theatre major attending USC’s School of Dramatic arts. He has been a performer for the last 12 years, but this is his first musical at USC! Aside from singing acting and dancing, Niko also loves hiking, swimming, writing, reading, drawing, and almost anything that involves creativity. Before MTR announced Adding Machine as their spring musical, Niko had never heard of it. However within a few short days of listening to the soundtrack, he fell in love with the music, as well as a very specific character, Shrdlu, who he now has the honor of playing. He would like to thank MTR for giving him the opportunity to bring this character to life, and he hopes you enjoy Adding Machine!",
+    bio: "Niko is a freshman musical theatre major attending USC’s School of Dramatic arts. He has been a performer for the last 12 years, but this is his first musical at USC! Aside from singing acting and dancing, Niko also loves hiking, swimming, writing, reading, drawing, and almost anything that involves creativity. Before MTR announced Adding Machine as their spring musical, Niko had never heard of it. However within a few short days of listening to the soundtrack, he fell in love with the music, as well as a very specific character, Shrdlu, who he now has the honor of playing. He would like to thank MTR for giving him the opportunity to bring this character to life, and he hopes you enjoy Adding Machine!",
     img: niko,
   },
   {
@@ -77,14 +80,14 @@ const cast = [
   },
   {
     role: "Mr. One/Prisoner",
-    name: "Matt Valentino",
+    name: "Matthew Valentino",
     bio: "Matthew Valentino (he/him) is a freshman studying Dramatic Arts with an emphasis in Acting. This is his first show with MTR and he is very happy to be a part of Adding Machine. Matt loves anything acting or singing related and is a proud member of Reverse Osmosis A Cappella. He can’t wait to be a part of more creative endeavors during his time at USC!",
     img: matt,
   },
   {
     role: "Mr. Two/Prison Guard",
     name: "Finn Deeney",
-    bio: "Hey guys! My name is Finn Deeney and I'm from Chicago, Illinois (in the city; don't let anyone tell you I'm from Naperville…). I'm currently a freshman studying to get a BA in Dramatic Arts with an MT emphasis. I am ecstatic to be joining MTR for the first time with \"Adding Machine\". Ask me about musicals, Overcompensating, the video game \"Wylde Flowers,\" Antigone, or my favorite March holiday. ",
+    bio: "Finn Deeney (he/him) is from Chicago, Illinois (in the city; don't let anyone try to tell you he’s from Naperville…). He’s currently a freshman studying to get a BA in Dramatic Arts with an MT emphasis. He’s ecstatic to be joining MTR for the first time with \"Adding Machine\". Ask him about musicals, Overcompensating, the video game \"Wylde Flowers,\" Antigone, or his favorite March holiday.",
     img: finn,
   },
 ]
@@ -126,6 +129,24 @@ const creative = [
     img: juan,
   },
   {
+    role: 'EDIA Coordinator',
+    name: "Pragya Bhatt",
+    bio: "Pragya Bhatt is a junior at USC, getting a double major in Communication and Cognitive Science, with a minor in Theatre. Big love to the MTR team!",
+    img: pragya,
+  },
+    {
+    role: "Intimacy Coordinator",
+    name: "Isabella Lobaina",
+    bio: "Lobaina is a sophomore studying Musical Theatre and Public Relations at USC. She's been choreographing intimacy since last year, and is so excited to see all the hard work that the actors have done to make their characters come to life! Shoutout to the MTR board and BTS for trusting me with your show and beautiful actors!",
+    img: bella,
+  },
+  {
+    role: "Stunt Coordinator",
+    name: "Megan Poblete",
+    bio: "Heyy my name is Megan (or Meg) and I am a Senior BA Theatre major with an Acting emphasis and a minor in Dance in Entertainment! I am also the current President of Trojan Stunt Team #FightOn :p",
+    img: megan,
+  },
+  {
     role: 'Producer',
     name: "Sara Gutierrez",
     bio: "Sara is so excited to be producing her second musical with MTR! A stage management major who is super cool and awesome you would probably want to be friends with her...AND want her to produce your shows. She is also the co-producer of The Fourth Quarter All stars sketch comedy troupe on campus. (shoutout my 4QAS ily) Now sit back, relax, and enjoy our amazing production of Adding Machine: A musical. ",
@@ -165,7 +186,7 @@ const design = [
   },
   {
     role: 'Props Designer',
-    name: 'Lola Nagy',
+    name: 'Lola Olimpia Nagy',
     bio: "Freshman Design BFA Major",
     img: lola,
   },
@@ -209,7 +230,7 @@ const pit = [
   },
   {
     role: 'Piano 2',
-    name: 'Namratha Kasalanati',
+    name: 'Namratha V. Kasalanati',
     bio: "Namratha V. Kasalanati (she/her) is a composer, pianist, cellist, and community activist, currently pursuing her Bachelor of Music in Composition and a Bachelor of Science in Economics/Mathematics at USC. Hailing from the Bay Area, her work aims to bring attention to the diverse musical traditions around the world, focusing on the intersections between Western and Indian classical music. Her composition, The King, the Lute, and the Elephant, was performed by the USC Symphony in 2025. Despite having worked on (now) six MTR shows, this is her first time performing in the pit, and she is really excited to work with the amazing Adding Machine team! In her spare time, she loves to read fantasy novels, consume Sour Skittles (or Trader Joe's Cinna-Dragons), and generally frolic about.",
     img: namratha,
   },

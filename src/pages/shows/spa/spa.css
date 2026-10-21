@@ -1,0 +1,98 @@
+.spa-background {
+  background-color: #443949 !important;
+}
+
+body {
+  background-color: var(--page-bg);
+}
+
+.SPAheader {
+  display: flex !important;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  padding: 0;
+}
+
+.SPAheader h1 {
+  font-size: 5rem;
+  color: #bdb144;
+  font-family: 'VTKS-TALL';
+  letter-spacing: 5px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.landing-container {
+  position: relative;
+  width: auto;
+  max-width: 600px;
+  overflow: hidden;
+}
+
+.landing-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.SPAheader h2 {
+  margin-bottom: 20px;
+  margin-top: 20px !important;
+  font-size: 1rem;
+}
+
+.SPAheader h3 {
+  font-size: 1.1rem;
+}
+.SPAheader h2,
+.SPAheader h3,
+.SPAheader h4,
+.SPAheader p {
+  width: 80%; /* Set width to 80% */
+  max-width: 300px;
+  margin: 0 auto; /* Center horizontally */
+  margin-top: 10px;
+  text-align: center; /* Ensure text is centered inside */
+  color: #bdb144;
+  font-family: 'Outfit', sans-serif;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px, 20px;
+}
+
+.SPA-button-details {
+  background-color: #bdb144;
+  color: #332838;
+  padding: 6px 5px;
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-family: 'VTKS-TALL';
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  width: 80%;
+  max-width: 300px;
+}
+
+body {
+  margin: 0px;
+}
+
+@font-face {
+  font-family: 'VTKS-TALL';
+  src: url('../../../fonts/VTKS-TALL.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}

@@ -52,12 +52,6 @@ const boardMembers = [
     page: '/board/keilah-mora',
   },
   {
-    name: 'Namratha Kasalanati',
-    title: 'Co-Treasurer',
-    photo: namratha,
-    page: '/board/namratha-kasalanati',
-  },
-  {
     name: 'Nathan Bass',
     title: 'Co-Treasurer',
     photo: nathan,
@@ -82,12 +76,6 @@ const boardMembers = [
     page: '/board/kassidy-atherton',
   },
   {
-    name: 'Kaitlyn Chaidez',
-    title: 'Member at Large',
-    photo: kaitlyn,
-    page: '/board/kaitlyn-chaidez',
-  },
-  {
     name: 'Courtney Chu',
     title: 'Member at Large',
     photo: courtney,
@@ -106,28 +94,10 @@ const boardMembers = [
     page: '/board/serena-feng',
   },
   {
-    name: 'Adam Hassan',
-    title: 'Member at Large',
-    photo: adam,
-    page: '/board/adam-hassan',
-  },
-  {
     name: 'Casey Hilton',
     title: 'Member at Large',
     photo: casey,
     page: '/board/casey-hilton',
-  },
-  {
-    name: 'Ava Karlstad',
-    title: 'Outreach Chair',
-    photo: ava,
-    page: '/board/ava-karlstad',
-  },
-  {
-    name: 'Zoey Monnissen',
-    title: 'Member at Large',
-    photo: zoey,
-    page: '/board/zoey-monnissen',
   },
   {
     name: 'Mia Murillo',
@@ -140,18 +110,6 @@ const boardMembers = [
     title: 'Member at Large',
     photo: richie,
     page: '/board/richie-nickel',
-  },
-  {
-    name: 'Alexandra Somodi',
-    title: 'Member at Large',
-    photo: alexandra,
-    page: '/board/alexandra-somodi',
-  },
-  {
-    name: 'Allison Stowe',
-    title: 'Member at Large',
-    photo: allison,
-    page: '/board/allison-stowe',
   },
   {
     name: 'Ben Williams',
@@ -168,6 +126,48 @@ const boardMembers = [
 ]
 
 const boardAlum = [
+  {
+    name: 'Kaitlyn Chaidez',
+    title: 'Member at Large',
+    photo: kaitlyn,
+    page: '/board/kaitlyn-chaidez',
+  },
+  {
+    name: 'Adam Hassan',
+    title: 'Member at Large',
+    photo: adam,
+    page: '/board/adam-hassan',
+  },
+  {
+    name: 'Ava Karlstad',
+    title: 'Outreach Chair',
+    photo: ava,
+    page: '/board/ava-karlstad',
+  },
+  {
+    name: 'Allison Stowe',
+    title: 'Member at Large',
+    photo: allison,
+    page: '/board/allison-stowe',
+  }, 
+  {
+    name: 'Alexandra Somodi',
+    title: 'Member at Large',
+    photo: alexandra,
+    page: '/board/alexandra-somodi',
+  },
+    {
+    name: 'Zoey Monnissen',
+    title: 'Member at Large',
+    photo: zoey,
+    page: '/board/zoey-monnissen',
+  },
+   {
+    name: 'Namratha Kasalanati',
+    title: 'Co-Treasurer',
+    photo: namratha,
+    page: '/board/namratha-kasalanati',
+  },
   {
     name: 'Gray Abdalla',
     title: 'Secretary',

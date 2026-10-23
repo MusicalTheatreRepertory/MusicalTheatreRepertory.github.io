@@ -30,11 +30,11 @@ const SpringAwakening = () => {
                 </Link>
               </div>
 
-              {/* <div className="button">
+              <div className="button">
                 <Link to="../director" className="SPA-button-details">
                   A Note From Our Director
                 </Link>
-              </div> */}
+              </div>
               <div className="button">
                 <Link to="../president" className="SPA-button-details">
                   A Note From The MTR President
@@ -123,11 +123,11 @@ const SpringAwakening = () => {
 
               <h3>
                 Spring Awakening is presented through
-                special arrangement with Concord Theatricals. All
-                authorized performance materials are also supplied by Concord Theatricals.
+                special arrangement with Musical Theatre International. All
+                authorized performance materials are also supplied by Musical Theatre International.
               </h3>
               <h3 style={{ fontSize: '0.7rem', paddingBottom: '20px' }}>
-                https://www.concordtheatricals.com
+                https://www.mtishows.com
               </h3>
             </div>
           </section>
